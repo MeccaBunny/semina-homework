@@ -1,0 +1,104 @@
+#pragma warning (disable:4996)
+#include<stdio.h>
+
+int main()
+{
+	{ //Q47
+		int a;
+		scanf("%d", &a);
+		printf("%d", a << 1);
+	}
+	
+	{ //Q48
+		int a, b;
+		scanf("%d %d",&a,&b);
+		printf("%d",a* (2<<b-1) );
+	}
+	
+	{ //Q49
+		int a, b;
+		scanf("%d %d", &a, &b);
+		printf("%d",a>b);
+	}
+
+	{ //Q50
+		int a, b;
+		scanf("%d %d", &a, &b);
+		printf("%d", a == b);
+	}
+	
+	{ //Q51
+		int a, b;
+		scanf("%d %d",&a,&b);
+		printf("%d",a<=b);
+	}
+
+	{ //Q52
+		int a, b;
+		scanf("%d %d", &a, &b);
+		printf("%d", a != b);
+	}
+	
+	{ //Q53
+		int a;
+		scanf("%d",&a);
+		printf("%d", !a);
+	}
+
+	{ //Q54
+		int a, b;
+		scanf("%d %d", &a, &b);
+		printf("%d", a && b);
+	}
+
+	{ //Q55
+		int a, b;
+		scanf("%d %d", &a, &b);
+		printf("%d", (a&&b)||(!a||b));
+	}
+
+	{ //Q56
+		int a, b;
+		scanf("%d %d", &a, &b);
+		printf("%d", (a&&b)||(!a||b));
+	}
+
+	{ //Q57
+		int a, b;
+		scanf("%d %d", &a, &b);
+		printf("%d", !((a&& b) || (!a || b)));
+	}
+
+	{ //Q58
+		int a, b;
+		scanf("%d %d", &a, &b);
+		printf("%d", !a&&!b);
+	}
+	
+	{ //Q59
+		int a;
+		scanf("%d", &a);
+		printf("%d", ~a);
+	}
+	
+	{ //Q60
+		int a, b;
+		scanf("%d %d", &a, &b);
+		printf("%d",a&b);
+	}
+	
+	{ //Q61
+		int a, b;
+		scanf("%d %d", &a, &b);
+		printf("%d", a|b);
+	}
+	
+	{ //Q62
+		int a, b;
+		scanf("%d %d", &a, &b);
+		printf("%d", a ^ b);
+	}
+
+return 0;
+}
+
