@@ -3,8 +3,8 @@
 
 int main()
 {
-  { //Q10
-		int n;
+  	{ //Q10
+		int n; 
 		scanf("%d", &n);
 		printf("%d", n);
 	}
@@ -23,7 +23,7 @@ int main()
 	
 	{ //Q13
 		int a, b;
-		scanf("%d%d", &a, &b);
+		scanf("%d %d", &a, &b);
 		printf("%d %d",a,b);
 	}
 	
@@ -76,10 +76,9 @@ int main()
 	}
 	
 	{ //Q23
-		int a; 
-		char b[7] = "";
-		scanf("%d.%s", &a, &b);
-		printf("%d\n%s",a,b);
+		int a,b;
+		scanf("%d.%d",&a,&b);
+		printf("%d\n%d",a,b);
 	}
 	
 	{ //Q24
@@ -92,23 +91,23 @@ int main()
 	}
 	
 	{ //Q25
-	int a, b, c, d, e;
-	scanf("%1d%1d%1d%1d%1d",&a,&b,&c,&d,&e);
-	printf("[%d]\n", a * 10000);
-	printf("[%d]\n", b * 1000);
-	printf("[%d]\n", c * 100);
-	printf("[%d]\n", d * 10);
-	printf("[%d]\n", e * 1);
+		int a, b, c, d, e;
+		scanf("%1d%1d%1d%1d%1d",&a,&b,&c,&d,&e);
+		printf("[%d]\n", a * 10000);
+		printf("[%d]\n", b * 1000);
+		printf("[%d]\n", c * 100);
+		printf("[%d]\n", d * 10);
+		printf("[%d]\n", e * 1);
 	}
 	
 	{ //Q26
-	int h, m, s;
-	scanf("%d:%d:%d",&h,&m,&s);
-	printf("%d",m);
+		int h, m, s;
+		scanf("%d:%d:%d",&h,&m,&s);
+		printf("%d",m);
 	}
 	
 	{ //Q27
-			int y,m,d;
+		int y,m,d;
 		scanf("%d.%d.%d",&y,&m,&d);
 		printf("%02d-%02d-%04d",d,m,y);
 	}
