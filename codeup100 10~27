@@ -1,0 +1,115 @@
+#pragma warning (disable:4996)
+#include<stdio.h>
+
+int main()
+{
+  { //Q10
+		int n;
+		scanf("%d", &n);
+		printf("%d", n);
+	}
+
+	{ //Q11
+		char x;
+		scanf("%c", &x);
+		printf("%c", x);
+	}
+
+	{ //Q12
+		float x;
+		scanf("%f",&x);
+		printf("%f",x);
+	}
+	
+	{ //Q13
+		int a, b;
+		scanf("%d%d", &a, &b);
+		printf("%d %d",a,b);
+	}
+	
+	{ //Q14
+		char x, y;
+		scanf("%c %c",&x,&y);
+		printf("%c %c",y,x);
+	}
+	
+	{ //Q15
+		float x;
+		scanf("%f", &x);
+		printf("%.2f",x);
+	}
+	
+	{ //Q17
+		int x;
+		scanf("%d",&x);
+		printf("%d %d %d",x,x,x);
+	}
+	
+	{ //Q18
+		int x, y;
+		scanf("%d:%d",x,y);
+		printf("%d:%d", x, y);
+	}
+	
+	{ //Q19
+		int y, m, d;
+		scanf("%d.%d.%d", &y, &m, &d);
+		printf("%d.%02d.%02d",y,m,d);
+	}
+	
+	{ //Q20
+		int a,b;
+		scanf("%d-%d",&a,&b);
+		printf("%d%d",a,b);
+	}
+	
+	{ //Q21
+		char data[51] = "";
+		scanf("%s", data);
+		printf("%s", data);
+	}
+
+	{ //Q22
+		char data[2001];
+		fgets(data,2000,stdin);
+		printf("%s",data);
+	}
+	
+	{ //Q23
+		int a; 
+		char b[7] = "";
+		scanf("%d.%s", &a, &b);
+		printf("%d\n%s",a,b);
+	}
+	
+	{ //Q24
+		char d[30];
+		scanf("%s",&d);
+		for (int i = 0; d[i] != '\0'; i++) 
+		{
+			printf("\'%c\'\n",d[i]);
+		}
+	}
+	
+	{ //Q25
+	int a, b, c, d, e;
+	scanf("%1d%1d%1d%1d%1d",&a,&b,&c,&d,&e);
+	printf("[%d]\n", a * 10000);
+	printf("[%d]\n", b * 1000);
+	printf("[%d]\n", c * 100);
+	printf("[%d]\n", d * 10);
+	printf("[%d]\n", e * 1);
+	}
+	
+	{ //Q26
+	int h, m, s;
+	scanf("%d:%d:%d",&h,&m,&s);
+	printf("%d",m);
+	}
+	
+	{ //Q27
+			int y,m,d;
+		scanf("%d.%d.%d",&y,&m,&d);
+		printf("%02d-%02d-%04d",d,m,y);
+	}
+}
