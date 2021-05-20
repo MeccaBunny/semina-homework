@@ -1,0 +1,63 @@
+#pragma warning (disable:4996)
+#include<stdio.h>
+
+int main()
+{
+	{ //Q38
+		int a, b;
+		scanf("%d %d",&a,&b);
+		printf("%d",a+b);
+	}
+
+	{ //Q39
+		long long int a, b;
+		scanf("%lld %lld", &a, &b);
+		printf("%lld",a+b);
+	}
+
+	{ //Q40
+		int a;
+		scanf("%d", &a);
+		printf("%d", -a);
+	}
+	
+	{ //Q41
+		char x;
+		scanf("%c",&x);
+		printf("%c",x+1);
+	}
+	
+	{ //Q42
+		int a, b;
+		scanf("%d %d",&a,&b);
+		printf("%d",a/b);
+
+	}
+	
+	{ //Q43
+		int a, b;
+		scanf("%d %d", &a, &b);
+		printf("%d", a % b);
+	}
+	
+	{ //Q44
+		int x;
+		scanf("%d",&x);
+		printf("%d",x+1);
+	}
+	
+	{ //Q45
+		int a, b;
+		scanf("%d %d", &a, &b);
+		printf("%d\n%d\n%d\n%d\n%d\n%.2f\n",a+b,a-b,a*b,a/b,a%b,(float)a/b);
+	}
+	
+	{ //Q46
+		int a, b, c;
+		scanf("%d %d %d",&a,&b,&c);
+		printf("%d\n%.1f",a+b+c,(float)(a+b+c)/3);
+	}
+
+  return 0;
+}
+
