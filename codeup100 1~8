@@ -1,0 +1,39 @@
+#pragma warning (disable:4996)
+#include<stdio.h>
+
+int main()
+{
+  { // Q1
+    printf("Hello");
+  }
+  
+  { // Q2
+    printf("Hello World");
+  }
+  
+  { // Q3
+    printf("Hello\nWorld");
+  }
+  
+  { // Q4
+    printf("\'Hello\'");
+  }
+  
+  { // Q5
+    printf("\"Hello\"");
+  }
+  
+  { // Q6
+    printf("%!%@%#%$%%%^%&%*%(%)\n");
+  }
+  
+  { // Q7
+    printf("\"C:\\Download\\hello.cpp\"\n");
+  }
+  
+  {
+    printf("\u250C\u252C\u2510\n\u251C\u253C\u2524\n\u2514\u2534\u2518\n");
+  }
+  
+}
+
