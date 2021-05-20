@@ -1,0 +1,66 @@
+#pragma warning (disable:4996)
+
+int main()
+{
+	{ //Q28
+		unsigned int n;
+		scanf("%u",&n);
+		printf("%u",n);
+	}
+
+	{ //Q29
+		double d;
+		scanf("%lf",&d);
+		printf("%lf",d);
+	}
+	
+	{ //Q30
+	long long int n;
+	scanf("%lld",&n);
+	printf("%lld",n);
+	}
+	
+	{ //Q31
+		int n;
+		scanf("%d",&n);
+		printf("%o",n);
+	}
+	
+	{ //Q32
+		int n;
+		scanf("%d", &n);
+		printf("%x", n);
+	}
+	
+	{ //Q33
+		int n;
+		scanf("%d", &n);
+		printf("%X", n);
+	}
+
+	{ //Q34
+		int n;
+		scanf("%o", &n);
+		printf("%d", n);
+	}
+
+	{ //Q35
+		int n;
+		scanf("%x", &n);
+		printf("%o", n);
+	}
+	
+	{ //Q36
+		char x;
+		scanf("%c", &x);
+		printf("%d",x);
+	}
+	
+	{ //Q37
+		int x;
+		scanf("%d", &x);
+		printf("%c", x);
+	}
+ 
+ return 0;
+}
